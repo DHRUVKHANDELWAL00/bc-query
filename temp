@@ -1,0 +1,46 @@
+ <% if(nearestBCs){%>
+        <table>
+            <thead>
+                <th>S.No </th>
+                <th>
+                    State
+                </th>
+                <th>District</th>
+                <th>Gender</th>
+            </thead>
+            <tbody>
+                <%nearestBCs.forEach(nearestBCs> { %>
+                    <tr>
+                        <td>
+                            <%= 1 %>
+                        </td>
+                        <td>
+                            <%= nearestBCs.State %>
+                        </td>
+                        <td>
+                            <%= nearestBCs.District %>
+                        </td>
+                        <td>
+                            <%= nearestBCs.Gender %>
+                        </td>
+                    </tr>
+    
+                    <%});%>
+            </tbody>
+        </table>
+        <%} %>
+
+<% stuff.forEach(function(item) { %>
+            <p>Name of BC: <%=  %>
+            </p>
+            <p>Contact Number: <%=  %>
+            </p>
+            <p>Latitude: <%= item.Latitude %>
+            </p>
+            <p>Longitude: <%= item.Longitude %>
+            </p>
+            <!-- Add more properties as needed -->
+            <% }); %>
+
+
+        
