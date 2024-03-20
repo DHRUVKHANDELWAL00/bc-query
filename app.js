@@ -59,8 +59,8 @@ app.post('/detail', async (req, res) => {
     District: district,
 });
   //  console.log(typeof nearestBCs)
-    console.log(nearestBCs)
-    console.log(typeof nearestBCs)
+    // console.log(nearestBCs)
+    // console.log(typeof nearestBCs)
     
     
 
